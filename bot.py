@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 #  CONFIG – Token from environment variable
 # ─────────────────────────────────────────────
 
-TOKEN = os.getenv("8755461788:AAEa275_tncngGEc7AI3W4Ui-epZw5Z5yFU")
+TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise ValueError("❌ BOT_TOKEN environment variable set karo!")
 
